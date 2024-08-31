@@ -1,0 +1,212 @@
+/* **************************** */
+/* HEADER */
+/* **************************** */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: 8.2rem;
+  padding: 0 3.2rem;
+  position: relative;
+}
+
+.logo {
+  height: 6.2rem;
+}
+
+/* **************************** */
+/* MOBILE */
+/* **************************** */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+/* **************************** */
+/* HEADER NAVIGATION */
+/* **************************** */
+
+.header-navigation-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 3.2rem;
+}
+
+.header-navigation-link:link,
+.header-navigation-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: -0.05em;
+  transition: all 0.3s;
+}
+.header-navigation-link:hover,
+.header-navigation-link:active {
+  color: #ff0000;
+}
+
+/* **************************** */
+/* PROJECTS NAVIGATION */
+/* **************************** */
+
+.projects-navbar-section {
+  /* display: flex;
+  align-items: center; */
+  padding: 1.6rem 2.4rem 3.2rem 3.2rem;
+
+  /* height: 8rem; */
+}
+
+.projects-navbar {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+}
+
+.projects-navbar-heading {
+  display: inline-block;
+  font-size: 3.2rem;
+  font-weight: 700;
+  letter-spacing: -2px;
+  color: #000000;
+}
+
+.projects-navigation-list {
+  display: flex;
+  align-items: flex-end;
+  list-style: none;
+  margin-left: 4.8rem;
+  padding-bottom: 0.8rem;
+  gap: 3.2rem;
+  height: 4rem;
+}
+
+.projects-navigation-link:link,
+.projects-navigation-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: -0.05em;
+  transition: all 0.3s;
+}
+.projects-navigation-link:hover,
+.projects-navigation-link:active {
+  color: #ff0000;
+}
+
+/* **************************** */
+/* TESTIOMONIALS SECTION */
+/* **************************** */
+
+.section-testimonials {
+  padding: 4.8rem 0;
+  /* width: 145rem; */
+}
+
+.testimonials {
+  width: 100%;
+}
+
+
+.testimonials_secondary_heading {
+    
+  font-size: 1.8rem;
+  font-weight: 400;
+    
+}
+ 
+
+.testimonial-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 3.2rem;
+}
+
+.testimonial-card {
+  display: block;
+  margin-right: -4px;
+}
+
+.testimonial-card-img {
+  display: inline-block;
+  width: 100%;
+  max-height: 29rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1.6rem 4.2rem;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000000;
+  letter-spacing: -0.05rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  color: #000000;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.card-img {
+  width: 100%;
+}
+
+/* **************************** */
+/* GREY GAP SECTION */
+/* **************************** */
+
+.grey-gap {
+  height: 36rem;
+  background-color: #d9d9d9;
+}
+
+/* **************************** */
+/* PROJECTS CARDS SECTION */
+/* **************************** */
+
+.project-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 3.2rem;
+}
+
+.project-card {
+  margin-right: -0.2rem;
+}
+
+.project-tags {
+  display: flex;
+  gap: 1.2rem;
+  padding: 1.2rem 0;
+}
+
+.tag {
+  font-size: 1rem;
+}
